@@ -14,7 +14,8 @@ $entry = Article::all();
 foreach($entry as $monarticle){
     echo "<a href='unarticle.php?id=".$monarticle->id."'> $monarticle->titre $monarticle->description </a>
     
-    
+    -   <a href='aj_fav.php?id=".$monarticle->id."'>Ajouter au favoris</a>-
+
     
   -   <a href='modifier.php?id=".$monarticle->id."'>Modifier</a>-
     

@@ -11,6 +11,9 @@ require "function.php";
 </head>
 <body>
     <br />
-     
+    <a href="index.php">Liste des articles</a> - 
+    <a href="Ajouter_article.php">Ajouter un article</a> - 
+    <a href="article_fav.php">Mes articles favoris</a>
+
     <br />
     
